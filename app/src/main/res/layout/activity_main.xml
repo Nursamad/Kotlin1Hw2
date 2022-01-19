@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/edt_layout"
         style="@style/main_edt_style"
@@ -24,13 +23,11 @@
         style="@style/btn_style"
         android:text="@string/submit" />
 
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_random"
         style="@style/btn_style"
         android:layout_marginTop="50dp"
         android:text="@string/random_image" />
-
 
     <ImageView
         android:id="@+id/iv_image"
@@ -39,6 +36,5 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         tools:ignore="ContentDescription" />
-
 
 </LinearLayout>
