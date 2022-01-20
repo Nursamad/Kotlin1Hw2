@@ -3,4 +3,7 @@
     <string name="put_url">Put url</string>
     <string name="submit">Submit</string>
     <string name="random_image">Random image</string>
+    <string name="random_toast">Рандомный подбор</string>
+    <string name="add_url">Успешно добавлена url</string>
+    <string name="error_download">Ошибка загрузки</string>
 </resources>

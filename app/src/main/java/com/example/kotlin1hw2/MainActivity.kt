@@ -29,15 +29,15 @@ class MainActivity : AppCompatActivity() {
     private fun btnRandomImage() {
         binding.btnRandom.setOnClickListener {
             binding.ivImage.load(urlImage.customRandom())
-            showToast("Рандомный подбор")
+            showToast(getString(R.string.random_toast))
         }
     }
 
     private fun btnSubmit() {
         binding.btnSubmit.setOnClickListener {
             if (urlImage.add(binding.edtUrl.text.toString())) {
-                showToast("Успешно добавлена url")
-            } else showToast("Ошибка загрузки")
+                showToast(getString(R.string.add_url))
+            } else showToast(getString(R.string.error_download))
         }
     }
 }
